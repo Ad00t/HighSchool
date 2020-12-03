@@ -1,0 +1,15 @@
+AlphabetDiagonal (20 pts)
+
+10pts for attempting the problem
+3 pts for using a loop for the rows
+2 pts for using a loop to generate the "."
+1 pt for generating the "." correctly
+1 pt for printing the characters
+3 pts for correct
+
+Triangle (15 pts)
+
+7pts for attempting the problem
+3pts for using a loop for the spaces
+1pt for creating the triangle itself
+4pt for correct

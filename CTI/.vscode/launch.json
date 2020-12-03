@@ -6,17 +6,17 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Test",
+            "name": "CodeLens (Launch) - Week5",
             "request": "launch",
-            "mainClass": "Test",
-            "projectName": "AP CS TA_37a178fd"
+            "mainClass": "Week5",
+            "projectName": "CTI_13136747"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - AlphabetDiagonal",
+            "name": "CodeLens (Launch) - Week2",
             "request": "launch",
-            "mainClass": "AlphabetDiagonal",
-            "projectName": "AP CS TA_37a178fd"
+            "mainClass": "Week2",
+            "projectName": "CTI_13136747"
         },
         {
             "type": "java",

@@ -8,3 +8,12 @@ public class Vehicle {
     }
 
 }
+
+class Animal {
+    public Animal() {
+        
+    }
+    public void makeSound() {
+
+    }
+}
