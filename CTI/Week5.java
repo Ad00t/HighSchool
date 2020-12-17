@@ -21,28 +21,28 @@ public class Week5 {
         // }
         // System.out.println(total);
 
-        ArrayList<Integer> list = new ArrayList<>();
-        list.add(5);
-        list.add(3);
-        list.add(1);
-        System.out.println(list);
-        list.remove(Integer.valueOf(3));
-        System.out.println(list);
-        list.add(4);
-        list.add(-1);
-        System.out.println(list);
-        list.remove(3);
-        System.out.println(list);
-        list.add(1, 3);
-        System.out.println(list);
+        // ArrayList<Integer> list = new ArrayList<>();
+        // list.add(5);
+        // list.add(3);
+        // list.add(1);
+        // System.out.println(list);
+        // list.remove(Integer.valueOf(3));
+        // System.out.println(list);
+        // list.add(4);
+        // list.add(-1);
+        // System.out.println(list);
+        // list.remove(3);
+        // System.out.println(list);
+        // list.add(1, 3);
+        // System.out.println(list);
 
         // for (int i = 0; i < list.size(); i++) {
         //     System.out.println(list.get(i));
         // }
 
-        for (int number : list) {
-            System.out.println(number);
-        }
+        // for (int number : list) {
+        //     System.out.println(number);
+        // }
 
         /*
         asd
@@ -55,31 +55,63 @@ public class Week5 {
         sa
         */
 
-        ArrayList<ArrayList<Integer>> list2d = new ArrayList<>();
-        list2d.add(new ArrayList<Integer>());
-        list2d.get(0).add(3);
-        System.out.println(list2d);
+        // ArrayList<ArrayList<Integer>> list2d = new ArrayList<>();
+        // list2d.add(new ArrayList<Integer>());
+        // list2d.get(0).add(3);
+        // System.out.println(list2d);
 
-        ArrayList<Integer> myNumbers = new ArrayList<Integer>();
-        myNumbers.add(10);
-        myNumbers.add(15);
-        myNumbers.add(20);
-        myNumbers.add(25);
-        for (int i : myNumbers) {
-        System.out.println(i);
-        }
+        // ArrayList<Integer> myNumbers = new ArrayList<Integer>();
+        // myNumbers.add(10);
+        // myNumbers.add(15);
+        // myNumbers.add(20);
+        // myNumbers.add(25);
+        // for (int i : myNumbers) {
+        // System.out.println(i);
+        // }
 
+        // int[] arr = {5, 1, 2, -6, 3, 9};
+        // ArrayList<Integer> list3 = new ArrayList<>();
+        // for (int i = arr.length - 1; i >= 0; i--) {
+        //     list3.add(arr[i]);
+        // }
+        // System.out.println(list3);
 
+        // Arrays Practice Problems
 
+        int[] arr = { 1, 9, 3, 2, 5, -2 };
+        int toCheck = 5;
 
+        // for (int i = 0; i < arr.length; i++) {
+        //     if (toCheck == arr[i]) {
+        //         System.out.println("Found toCheck at index " + i);
+        //         break;
+        //     }
+        // }
 
-        int[] arr = {5, 1, 2, -6, 3, 9};
-        ArrayList<Integer> list3 = new ArrayList<>();
-        for (int i = arr.length - 1; i >= 0; i--) {
-            list3.add(arr[i]);
-        }
-        System.out.println(list3);
+        // while (!isSorted(arr)) {
+        //     for (int i = 0; i < arr.length - 1; i++) {
+        //         if (arr[i] > arr[i + 1]) {
+        //             int tmp = arr[i];
+        //             arr[i] = arr[i + 1];
+        //             arr[i + 1] = tmp;
+        //         }
+        //     }
+        //     for (int i = 0; i < arr.length; i++) {
+        //         System.out.print(arr[i] + " ");
+        //     }
+        //     System.out.println();
+        // }
 
     }
 
+    // public static boolean isSorted(int[] arr) {
+    //     for (int i = 0; i < arr.length - 1; i++) {
+    //         if (arr[i] > arr[i + 1]) 
+    //             return false;
+    //     }
+    //     return true;
+    // }
+
 }
+
+

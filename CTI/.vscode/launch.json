@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RNG",
+            "request": "launch",
+            "mainClass": "RNG",
+            "projectName": "CTI_13136747"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OOPMain",
+            "request": "launch",
+            "mainClass": "Week6_7.OOPMain",
+            "projectName": "CTI_13136747"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Week6",
+            "request": "launch",
+            "mainClass": "Week6_7.Week6",
+            "projectName": "CTI_13136747"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Week5",
             "request": "launch",
             "mainClass": "Week5",
