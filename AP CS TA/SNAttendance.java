@@ -26,6 +26,7 @@ public class SNAttendance {
 			System.out.print("participant " + b + ": ");
 			participants[b] = console.next();
 		}
+		console.close();
 
 		// System.out.println("participants: " + participants);
 

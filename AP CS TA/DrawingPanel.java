@@ -2297,7 +2297,6 @@ public final class DrawingPanel implements ImageObserver {
      * Brings the given window to the front of the Z-ordering.
      */
     private void toFront(final Window window) {
-        // TODO: remove anonymous inner class
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 if (window != null) {

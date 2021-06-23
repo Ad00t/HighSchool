@@ -6,12 +6,15 @@ import json
 config = json.loads(open('config.json', 'r').read())
 
 def main():
+    print('Logging in...')
     br = login(config)
 
-    soup = bs(br.open('https://hypergrade.com/student'), 'html5lib')
+    print('Opening students list...')
+    br.open('https://hypergrade.com/student')
+    soup = bs(br.read())
     users = soup.find_all("td", {'class': 'username'})
 
-    print('Retrieving students...')
+    print('Retrieving ' + len(users) + ' students...')
     file = open('students.txt', 'w')
     for user in users:
         file.write(user.string + "\n")

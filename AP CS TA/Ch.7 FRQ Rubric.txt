@@ -1,0 +1,20 @@
+Push Zeros (10 pts)
+    +4: attempt
+    +1: looping through original array
+    +2: pushing 0s to the back of the array
+    +1: maintaining order of nonzero elements
+    +2: printing out the array at the end
+
+Pairs (8 pts)
+    +4: attempt
+    +2: checked the sums of each element in
+        the array and each element after it
+    +2: printing out the pairs
+
+Diagonals (15 pts)
+    +6: attempt
+    +3: finding method that produces
+        coordinates of diagonals
+    +4: successfully looping through the array
+        using that formula
+    +2: printing output

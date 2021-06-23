@@ -97,6 +97,7 @@ public class SpaceNeedleUserSize {
         System.out.print("enter SIZE: ");
         SIZE = console.nextInt();   // get SIZE from user
         System.out.println();       // for HG output
+        console.close();
 
         stick();
         cone();

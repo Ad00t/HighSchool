@@ -1,0 +1,16 @@
+datatype prop = T | F;
+
+fun OR (T, T) = T 
+  | OR (T, F) = T 
+  | OR (F, T) = T 
+  | OR (F, F) = F;
+
+fun AND (T, T) = T 
+  | AND (T, F) = F 
+  | AND (F, T) = F 
+  | AND (F, F) = F;
+
+OR(T, F);
+OR(F, F);
+AND(T, T);
+AND(T, F);

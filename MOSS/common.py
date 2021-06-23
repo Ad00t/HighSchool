@@ -5,13 +5,16 @@ def login(config):
     cj = cookie.CookieJar()
     br = mechanize.Browser()
     br.set_cookiejar(cj)
-    url = "https://hypergrade.com/student"
-
-    br.open(url)
+    br.open('https://hypergrade.com/login-old')
 
     br.select_form(nr=0)
     br.form['email'] = config['login']['email']
     br.form['pwd'] = config['login']['pwd']
-    br.submit()
+
+    res = br.submit()
+    if (res.code == 200):
+        print('Successfully logged in as ' + config['login']['email'])
+    else:
+        print('Login unsuccessful: ' + res)
 
     return br

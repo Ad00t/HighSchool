@@ -6,21 +6,14 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Test",
+            "name": "Launch Problem3",
             "request": "launch",
-            "mainClass": "Test",
+            "mainClass": "Problem3",
             "projectName": "AP CS TA_37a178fd"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - AlphabetDiagonal",
-            "request": "launch",
-            "mainClass": "AlphabetDiagonal",
-            "projectName": "AP CS TA_37a178fd"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch) - Current File",
+            "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
         }

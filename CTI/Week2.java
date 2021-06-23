@@ -1,23 +1,29 @@
 public class Week2 {
     
     public static void main(String[] args) {
-        int declared; // DECLARATION (create with only a type)
-        declared = 5; // INITIALIZATION (give a variable an initial value)
-        declared = 7; // ASSIGNMENT (declared already had an initial value of 5)
 
-        int number1 = 10; // DECLARATION + INITIALIZATION (combined into 1 line)
-        System.out.println(number1);
-        System.out.print(number1);
-        System.out.print(number1);
+        // int a = 10;
+        // int b = 6;
+        // int c = -1;
 
-        double decimal = 245.3;
-        double bigDecimal = 2E6;
-        System.out.println(decimal);
-        System.out.println(bigDecimal);
+        // double d = 10;
+        // double e = 4;
 
-        // VARIABLE OPERATIONS
-        int a = 1;
-        int b;
+        // // System.out.println(10.0 / 6);
+
+        // String word1 = "word";
+        // String word2 = "word2";
+        // String word3 = word1 + word2;
+        // System.out.println(word3);
+
+        int a = -32;
+        if (a < 0) {
+            System.out.println("abs = " + -a);
+        } else {
+            System.out.println("abs = " + a);
+        }
+        
+
     }
     
 }

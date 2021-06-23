@@ -29,7 +29,7 @@ def main():
 
 def download_submission(br, email, p):
     url_host = 'https://hypergrade.com'
-    url = url_host + '/approve.php?u=' + email + config['i'][str(p)]
+    url = url_host + '/approve.php?u=' + email + '&i=' + config['i'][str(p)]
     download_hrefs = bs(br.open(url), 'html5lib').find_all(lambda tag: tag.name == 'a'
                                                            and tag.get('download') == '')
     
